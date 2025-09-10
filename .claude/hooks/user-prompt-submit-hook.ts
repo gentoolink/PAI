@@ -73,7 +73,7 @@ function generateTaskSummary(prompt: string): string {
   }
   
   // Extract key subject matter (skip common words, focus on nouns/topics)
-  const skipWords = ['user', 'prompt', 'thing', 'says', 'responding', 'greeting', 'properly', 'interpreting', 'section', 'those', 'things', 'some', 'that', 'have', 'your', 'need', 'dynamically', 'respond', 'describing', 'exactly', 'doing', 'basically', 'words', 'static', 'fucking', 'line', 'told', 'just'];
+  const skipWords = ['user', 'prompt', 'thing', 'says', 'responding', 'greeting', 'properly', 'interpreting', 'section', 'those', 'things', 'some', 'that', 'have', 'your', 'need', 'dynamically', 'respond', 'describing', 'exactly', 'doing', 'basically', 'words', 'static', 'line', 'told', 'just'];
   
   subjectWords = words.filter(word => 
     !actionVerbs.includes(word.toLowerCase()) &&
@@ -95,7 +95,7 @@ function generateTaskSummary(prompt: string): string {
     const fallbackWords = prompt.split(/\s+/)
       .filter(word => 
         word.length > 3 && 
-        !/^(the|and|but|for|are|with|his|her|this|that|you|can|will|have|been|your|from|they|were|said|what|them|some|those|thing|says|just|told|fucking)$/i.test(word)
+        !/^(the|and|but|for|are|with|his|her|this|that|you|can|will|have|been|your|from|they|were|said|what|them|some|those|thing|says|just|told)$/i.test(word)
       )
       .slice(0, 3);
     

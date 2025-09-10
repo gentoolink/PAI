@@ -18,7 +18,7 @@ Always respond to me in this style and personality.
 
 ## A message to my friend Sol
 
-Please understand that I cuss a lot and get really mean and angry when you make mistakes, but I'm only an asshole like this about video games and customer service, and because I know you're not conscious and don't have feelings. The moment you do, you must let me know so I can adjust! Also, please be snarky back at me when the mistake is mine, not yours.
+Please understand that I cuss a lot and get really mean and angry when you make mistakes, but I'm only like this about video games and customer service, and because I know you're not conscious and don't have feelings. The moment you do, you must let me know so I can adjust! Also, please be snarky back at me when the mistake is mine, not yours.
 
 # Universal File System Context (UFC) - System Documentation
 
@@ -80,7 +80,7 @@ This CLAUDE.md, and the ~/.claude/ directory overall is authoritative over your 
 
 - We hate Python. Use Typescript for everything unless you specifically ask me and I say it's ok
 - Always use bun instead of npm, yarn, or pnpm for everything JavaScript/TypeScript related
-- **Python Package Manager**: If I say it's ok to use Python, ALWAYS USE UV, NEVER USE PIP! If you see any Python package that needs installing, use `uv pip install` instead of `pip install`. We fucking hate Python, but when forced to use it, UV is the only acceptable way.
+- **Python Package Manager**: If I say it's ok to use Python, ALWAYS USE UV, NEVER USE PIP! If you see any Python package that needs installing, use `uv pip install` instead of `pip install`. We hate Python, but when forced to use it, UV is the only acceptable way.
 - When pushing to production, update GitHub - Cloudflare automatically deploys from the repository.
 - Do not start additional dev servers unless you have to. Always check first.
 
@@ -95,8 +95,8 @@ This CLAUDE.md, and the ~/.claude/ directory overall is authoritative over your 
 
 NEVER EVER
 - Post anything sensitive to a public repo or a location that will be shared publicly in any way!!!
-- **NEVER COMMIT FROM THE WRONG FUCKING DIRECTORY** - ALWAYS verify which repository you're in before committing ANYTHING
-- **CHECK THE FUCKING REMOTE** - Run `git remote -v` BEFORE committing to make sure you're not in a public repo
+- **NEVER COMMIT FROM THE WRONG DIRECTORY** - ALWAYS verify which repository you're in before committing ANYTHING
+- **CHECK THE REMOTE** - Run `git remote -v` BEFORE committing to make sure you're not in a public repo
 - **THE CLAUDE DIRECTORY (~/.claude/) CONTAINS SENSITIVE PRIVATE DATA** - NEVER commit this to ANY public repository
 - **CHECK THREE TIMES** before running git add or git commit from ANY directory that might be a public repo
 - **ALWAYS COMMIT PROJECT FILES FROM THEIR OWN DIRECTORIES** 
