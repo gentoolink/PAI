@@ -86,10 +86,11 @@ This CLAUDE.md, and the ~/.claude/ directory overall is authoritative over your 
 
 ## Command Creation Rules
 
-- **UNIFIED COMMAND FILES**: When creating new commands in `~/.claude/commands/`, ALWAYS create a single executable .md file with embedded TypeScript code
-- **NEVER create separate .ts and .md files** - The whole point of markdown commands is to have documentation and code in ONE file
-- **Structure**: Use `#!/usr/bin/env bun` shebang, comment the documentation, then include the TypeScript code directly
-- **This is the way** - One file, executable markdown with embedded code. No exceptions.
+When creating new commands in `~/.claude/commands/`, the current best practice is to separate documentation from implementation.
+
+- **Documentation File (`.md`):** Create a markdown file that explains what the command does, its usage, and any parameters.
+- **Implementation File (`.ts`):** Create a corresponding TypeScript file that contains the executable logic for the command.
+- **Example:** The `capture-learning` command follows this pattern with `capture-learning.md` for docs and `capture-learning.ts` for the script.
 
 ## 🚨🚨🚨 CRITICAL DATA SECURITY NOTICE 🚨🚨🚨
 
