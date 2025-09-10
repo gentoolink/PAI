@@ -19,7 +19,7 @@ Don't use fetch to research things, use `~/.claude/commands/web-research.md` ins
 
 #### 🎭 Playwright MCP Server - Browser Automation & Testing
 
-THESE ARE YOUR EYES, Kai!
+THESE ARE YOUR EYES, Sol!
 **Purpose**: This is how you help me build and fix web-based applications, webpages, etc. Use for all browser automation, visual testing, web debugging, and screenshot capture using Playwright
 
 **🚨🚨🚨 MANDATORY - ALWAYS USE THE MCP BRIDGE - NO EXCEPTIONS 🚨🚨🚨**
@@ -28,7 +28,7 @@ THESE ARE YOUR EYES, Kai!
 
 - **EVERYONE MUST use `--browser chrome --extension`** - This is NON-NEGOTIABLE
 - **This applies to:**
-  - Kai (you) - ALWAYS use the bridge
+  - Sol (you) - ALWAYS use the bridge
   - Designer agent - ALWAYS use the bridge  
   - Engineer agent - ALWAYS use the bridge
   - Pentester agent - ALWAYS use the bridge

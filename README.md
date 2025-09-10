@@ -32,7 +32,7 @@
 
 PAI is a project designed to give anyone in the world a personal AI infrastructure for orchestrating their personal and professional lives.
 
-Based off my own personal Digital Assistant, **Kai**, it combines a scaffolding framework with a growing set of real-world examples.
+Based off my own personal Digital Assistant, **Sol**, it combines a scaffolding framework with a growing set of real-world examples.
 
 <table>
 <tr>

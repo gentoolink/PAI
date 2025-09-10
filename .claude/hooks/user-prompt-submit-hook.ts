@@ -1,8 +1,8 @@
 #!/usr/bin/env bun
 /**
- * User Prompt Submit Hook - Voice greeting when Kai starts working
- * Triggered when user submits a request and Kai begins processing
- * Announces when Kai is starting work on the task
+ * User Prompt Submit Hook - Voice greeting when Sol starts working
+ * Triggered when user submits a request and Sol begins processing
+ * Announces when Sol is starting work on the task
  */
 
 interface NotificationPayload {
@@ -120,7 +120,7 @@ function generateTaskSummary(prompt: string): string {
 }
 
 /**
- * Generate greeting phrase for when Kai starts working
+ * Generate greeting phrase for when Sol starts working
  */
 function generateVoiceGreeting(): string {
   const greetings = [
@@ -198,13 +198,13 @@ async function main() {
     // const taskSummary = generateTaskSummary(data.prompt);
     // const fullMessage = `${greeting}, ${taskSummary}`;
     
-    // COMMENTED OUT: Send notification with Kai's voice
+    // COMMENTED OUT: Send notification with Sol's voice
     // const payload: NotificationPayload = {
-    //   title: 'Kai',
+    //   title: 'Sol',
     //   message: fullMessage,
     //   voice_enabled: true,
     //   priority: 'low',
-    //   voice_id: 'jqcCZkN6Knx8BJ5TBdYR'  // Kai's main voice ID
+    //   voice_id: 'jqcCZkN6Knx8BJ5TBdYR'  // Sol's main voice ID
     // };
     
     // await sendNotification(payload);
