@@ -37,13 +37,13 @@ THESE ARE YOUR EYES, Kai!
 
 **🔧 TROUBLESHOOTING SESSIONS - START WITH NEW WINDOW:**
 - **ALWAYS open a NEW browser window** for troubleshooting/debugging
-- **DO NOT interrupt Daniel's current browser workflow**
+- **DO NOT interrupt Ken's current browser workflow**
 - **The bridge will create a new window automatically**
-- **This preserves Daniel's active tabs and work**
+- **This preserves Ken's active tabs and work**
 - **Start fresh for each troubleshooting session**
 
 **WHY THE BRIDGE IS MANDATORY:**
-- **Uses Daniel's real browser** - Has all cookies, sessions, and authentication
+- **Uses Ken's real browser** - Has all cookies, sessions, and authentication
 - **NO PROMPTS** - Works silently without permission dialogs
 - **REAL CONTEXT** - Accesses actual logged-in state
 - **NO ISOLATION** - Uses the real browser environment
@@ -65,7 +65,7 @@ mcp__playwright__ tools with --browser chrome --extension
 1. **Start troubleshooting** → Open NEW window with bridge
 2. **Debug website issues** → Open NEW window with bridge  
 3. **Visual testing** → Open NEW window with bridge
-4. **Don't interrupt Daniel's work** → ALWAYS use new windows
+4. **Don't interrupt Ken's work** → ALWAYS use new windows
 5. **Each session is fresh** → Bridge creates clean new window
 
 **If an agent doesn't use the bridge, they are doing it WRONG. There are NO exceptions to this rule.**
@@ -466,7 +466,7 @@ Examples that should trigger the command:
 
 ## 🔌 MCP SERVERS - Model Context Protocol Services
 
-## Your full list of MCP servers is in `read Users/daniel/.claude/.mcp.json`.
+## Your full list of MCP servers is in `read ~/.claude/.mcp.json`.
 
 Read the descriptions in each of those to understand what they're used for and when you should invoke them.
 
@@ -474,7 +474,7 @@ Read the descriptions in each of those to understand what they're used for and w
 
 Some web content is extremely difficult to browse, scrape, or crawl with other tools, such as from LinkedIn or Facebook or Instagram or X/Twitter. For systems like that, you want to use the Apify MCP server.
 
-**CRITICAL**: When Daniel asks about:
+**CRITICAL**: When Ken asks about:
 - **LinkedIn scraping** or getting content from LinkedIn profiles/posts
 - **X (Twitter) scraping** or getting content from X profiles/posts  
 - **Social media content extraction** that's traditionally difficult to crawl

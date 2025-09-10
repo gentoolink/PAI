@@ -7,6 +7,7 @@
 
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { homedir } from 'os';
 
 interface HookInput {
   session_id: string;
@@ -48,7 +49,8 @@ async function main() {
     const data: HookInput = JSON.parse(input);
     
     // Read the markdown file with instructions from commands directory
-    const mdPath = '/Users/daniel/.claude/commands/load-dynamic-context.md';
+    const home = homedir();
+    const mdPath = join(home, '.claude', 'commands', 'load-dynamic-context.md');
     const mdContent = readFileSync(mdPath, 'utf-8');
     
     // Output the markdown content to stdout

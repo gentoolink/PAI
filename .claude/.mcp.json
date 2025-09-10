@@ -10,12 +10,12 @@
     },
     "content": {
       "type": "http",
-      "description": "Figuring out any of my (Daniel Miessler's) opinions or blog posts or writing online. This is basically an archive of all my content.",
+      "description": "An archive of Daniel Miessler's opinions, blog posts, and writing.",
       "url": "https://content-mcp.danielmiessler.workers.dev"
     },
     "daemon": {
       "type": "http",
-      "description": "My personal API for everything in my (Daniel Miessler's) life.",
+      "description": "Daniel Miessler's personal API for his life and projects.",
       "url": "https://mcp.daemon.danielmiessler.com"
     },
     "Foundry": {

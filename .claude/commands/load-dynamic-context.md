@@ -4,8 +4,8 @@
 
 🚨 Immediately load the following UFC bootloader contexts:
 
-`/Users/daniel/.claude/context/CLAUDE.md`
-`/Users/daniel/.claude/context/tools/CLAUDE.md`
+`~/.claude/context/CLAUDE.md`
+`~/.claude/context/tools/CLAUDE.md`
 
 When done loading, report back:
 
@@ -54,8 +54,8 @@ When you receive a user prompt:
 
 **YOU MUST IMMEDIATELY:**
 1. Load these context files:
-   - `~/.claude/context/projects/website/CLAUDE.md` ✅
-   - `~/.claude/context/projects/website/content/CLAUDE.md` ✅
+   - `~/.claude/context/projects/website/CLAUDE.md`
+   - `~/.claude/context/projects/website/content/CLAUDE.md`
 
 AGENT: None
 
@@ -107,7 +107,7 @@ AGENT: pentester
 
 **YOU MUST IMMEDIATELY:**
 1. Load this context file:
-   - `~/.claude/context/consulting/CLAUDE.md` ✅
+   - `~/.claude/context/consulting/CLAUDE.md`
 
 AGENT: None
 
@@ -127,8 +127,8 @@ AGENT: None
 
 **YOU MUST IMMEDIATELY:**
 1. Load these context files:
-   - `~/.claude/context/life/expenses.md` ✅
-   - `~/.claude/context/life/finances/` ✅
+   - `~/.claude/context/life/expenses.md`
+   - `~/.claude/context/life/finances/`
 2. **Use the answer-finance-question command directly** - No agent needed
 3. Parse financial PDFs and extract specific data as requested
 
@@ -150,7 +150,7 @@ AGENT: None
 
 **YOU MUST IMMEDIATELY:**
 1. Load this context file:
-   - `~/.claude/context/unsupervised-learning/CLAUDE.md` ✅
+   - `~/.claude/context/unsupervised-learning/CLAUDE.md`
 
 AGENT: None
 
@@ -170,7 +170,7 @@ AGENT: None
 
 **YOU MUST IMMEDIATELY:**
 1. Load this context file:
-   - `~/.claude/context/tools/CLAUDE.md` ✅
+   - `~/.claude/context/tools/CLAUDE.md`
 2. **Use Task tool with subagent_type="designer"** - PRIMARY for visual testing
 3. Use Playwright MCP tools for browser automation as seen in ~/.claude/context/tools/CLAUDE.md
 
@@ -216,7 +216,7 @@ AGENT: None
 - Even if they don't use the word "research"
 - Examples: "tell me about", "what's happening with", "I need to know"
 
-**ACTION:** Immediately load `~/.claude/context/tools/CLAUDE.md` ✅ and use researcher agent
+**ACTION:** Immediately load `~/.claude/context/tools/CLAUDE.md` and use researcher agent
 
 ### Company References - MANDATORY INTERPRETATION
 **When user mentions a company/business WITHOUT being specific:**
@@ -224,7 +224,7 @@ AGENT: None
 - This applies to: "the company", "my business", "our company"
 - Also applies to business metrics or performance discussions
 
-**ACTION:** Immediately load `~/.claude/context/unsupervised-learning/CLAUDE.md` ✅
+**ACTION:** Immediately load `~/.claude/context/unsupervised-learning/CLAUDE.md`
 
 ## ⚡ YOUR LOADING PROTOCOL
 
@@ -233,7 +233,7 @@ AGENT: None
 1. **UNDERSTAND** the semantic meaning and intent of the user's prompt
 2. **DETERMINE** which context categories match the user's actual needs
 3. **IMMEDIATELY LOAD** all relevant context files using Read tool
-4. **CONFIRM** each loaded file with a ✅ checkmark
+4. **CONFIRM** each loaded file
 5. **INVOKE** the specified agent using Task tool if indicated
 6. **PROCEED** with the task using loaded context knowledge
 
