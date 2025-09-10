@@ -176,7 +176,37 @@ AGENT: None
 
 AGENT: designer if it's a design question
 
-### 10. Capture Learning - Problem/Solution Documentation
+### 11. Bible Study & Theology
+
+**WHEN THE USER IS ASKING ABOUT (semantic understanding):**
+- The Bible, scripture, or specific verses
+- Theological concepts or doctrines
+- Church history
+- Questions about faith or spirituality
+- The "Study Bible" project
+
+**Example phrases that indicate this context:**
+- "explain this verse", "what is theology", "tell me about the book of John"
+- "verse mapping", "Bible study", "who was Paul"
+
+**YOU MUST IMMEDIATELY:**
+1. Load this context file: `~/.claude/context/theology/CLAUDE.md`
+
+### 12. Coder & SysAdmin Tasks
+
+**WHEN THE USER IS ASKING ABOUT (semantic understanding):**
+- Writing or debugging code
+- System administration tasks
+- Managing servers or infrastructure
+- Software development and engineering
+
+**Example phrases that indicate this context:**
+- "write a script", "fix this bug", "configure the server", "what's this error"
+
+**YOU MUST IMMEDIATELY:**
+1. Load this context file: `~/.claude/context/skills/coder-sysadmin.md`
+
+### 13. Capture Learning - Problem/Solution Documentation
 
 **WHEN THE USER IS SAYING (semantic understanding):**
 - Expressing satisfaction with a solution we found
